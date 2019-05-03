@@ -14,6 +14,7 @@
 		CFD4D3CB227BE663000F076D /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4D3CA227BE663000F076D /* ContainerController.swift */; };
 		CFD4D3CD227BE679000F076D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4D3CC227BE679000F076D /* HomeController.swift */; };
 		CFD4D3CF227BE687000F076D /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4D3CE227BE687000F076D /* MenuController.swift */; };
+		CFD4D3D1227BEC81000F076D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4D3D0227BEC81000F076D /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CFD4D3CA227BE663000F076D /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
 		CFD4D3CC227BE679000F076D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		CFD4D3CE227BE687000F076D /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		CFD4D3D0227BEC81000F076D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		CFD4D3C9227BE5F4000F076D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CFD4D3D0227BEC81000F076D /* Protocols.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD4D3D1227BEC81000F076D /* Protocols.swift in Sources */,
 				CFD4D3CF227BE687000F076D /* MenuController.swift in Sources */,
 				CFD4D3CD227BE679000F076D /* HomeController.swift in Sources */,
 				CFD4D3B5227BE5B5000F076D /* AppDelegate.swift in Sources */,
