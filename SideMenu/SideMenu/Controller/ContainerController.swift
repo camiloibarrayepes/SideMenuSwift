@@ -15,6 +15,11 @@ class ContainerController: UIViewController{
         super.viewDidLoad()
         configureHomeController()
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle{
+        return .lightContent
+    }
+    
     //MARK Handlres
     
     func configureHomeController(){

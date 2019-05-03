@@ -13,7 +13,20 @@ class HomeController: UIViewController{
     //MARK init
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        view.backgroundColor = .white
+        configureNavigationBar()
     }
     //MARK Handlres
+    
+    @objc func handleMenuToggle(){
+        print("toggle menu")
+    }
+    
+    func configureNavigationBar(){
+        navigationController?.navigationBar.barTintColor = .darkGray
+        navigationController?.navigationBar.barStyle = .black
+        
+        navigationItem.title = "Slide Menu"
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "ic_menu_white_3x").withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleMenuToggle))
+    }
 }
